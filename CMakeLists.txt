@@ -5,6 +5,8 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_subdirectory(external/glfw)
 add_subdirectory(external/glm)
+add_subdirectory(external/tinygltf)
+include_directories(external)
 
 find_package(Vulkan REQUIRED)
 
